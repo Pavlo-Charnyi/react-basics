@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-basics/static/css/main.f6117a1c.css",
-    "main.js": "/react-basics/static/js/main.3ccb6fce.js",
+    "main.js": "/react-basics/static/js/main.c070f01b.js",
     "static/js/787.10cefd62.chunk.js": "/react-basics/static/js/787.10cefd62.chunk.js",
     "static/media/lift-off.jpeg": "/react-basics/static/media/lift-off.624e137fd6a4ccce2709.jpeg",
     "static/media/tesla-coil.jpg": "/react-basics/static/media/tesla-coil.c0411ba1d8ec80103aad.jpg",
@@ -12,11 +12,11 @@
     "static/media/likes.svg": "/react-basics/static/media/likes.bc9935a6be88f7c05e8547ae189fe060.svg",
     "static/media/message.svg": "/react-basics/static/media/message.0fa27f00bfa7020833159cd12901f795.svg",
     "main.f6117a1c.css.map": "/react-basics/static/css/main.f6117a1c.css.map",
-    "main.3ccb6fce.js.map": "/react-basics/static/js/main.3ccb6fce.js.map",
+    "main.c070f01b.js.map": "/react-basics/static/js/main.c070f01b.js.map",
     "787.10cefd62.chunk.js.map": "/react-basics/static/js/787.10cefd62.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6117a1c.css",
-    "static/js/main.3ccb6fce.js"
+    "static/js/main.c070f01b.js"
   ]
 }
