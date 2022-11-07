@@ -3,25 +3,20 @@ import retweetsImg from '../assets/retweets.svg';
 import likesImg from '../assets/likes.svg';
 import messageImg from '../assets/message.svg';
 
-function Post(props) {
-  const photo = props.author.photo;
-  const author = props.author.name;
-  const nickname = props.author.nickname;
-  const { comments, messages, retweeets, likes, date } = props;
-  console.log(props);
+function Post({author:{name, nickname, photo}, comments, messages, retweeets, likes, date, content, image}) {
   return (
     <div className="tweet-wrap">
       <div className="tweet-header">
         <img src={photo} alt="" className="avatar" />
         <div className="tweet-header-info">
-          {author}
+          {name}
           <span>{date}</span>
           <span>{nickname}</span>
-          <p>{props.content}</p>
+          <p>{content}</p>
         </div>
       </div>
       <div className="tweet-img-wrap">
-        <img src={props.image} alt="" className="tweet-img" />
+        <img src={image} alt="" className="tweet-img" />
       </div>
 
       <div className="tweet-info-counts">
